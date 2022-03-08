@@ -1,1 +1,26 @@
-.Container {}
+.containers {
+    display: grid;
+    background: white;
+    color:#fff;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2px;
+}
+
+.bg1 {
+    height: 210px;
+    background: url(../../assets/images/p7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg2 {
+    height: 210px;
+    background: url(../../assets/images/p7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.plm {
+    color:black;
+    grid-column: 1 / 3 ;
+}
