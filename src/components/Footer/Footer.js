@@ -1,13 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './Footer.module.css';
+import React from "react";
+import styles from "./Footer.module.css";
+import * as ReactBootstrap from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
-const Footer = () => (
-  <div className={styles.Footer}>
-    Footer Component
-  </div>
-);
-
+function Footer() {
+  return (
+    <div className="container justify-content-center d-flex align-items-center">
+      Made with   <FontAwesomeIcon icon={faHeart} /> by Sogno
+    </div>
+  );
+}
 Footer.propTypes = {};
 
 Footer.defaultProps = {};

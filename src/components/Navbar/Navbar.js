@@ -1,12 +1,25 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './Navbar.module.css';
+import React from "react";
+import * as ReactBootstrap from "react-bootstrap";
 
-const Navbar = () => (
-  <div className={styles.Navbar}>
-    Navbar Component
-  </div>
-);
+function Navbar() {
+  return (
+    <div>
+      <ReactBootstrap.Navbar>
+        <ReactBootstrap.Container>
+          <ReactBootstrap.Navbar.Brand href="#home">
+            Sogno
+          </ReactBootstrap.Navbar.Brand>
+          <ReactBootstrap.Navbar.Toggle />
+          <ReactBootstrap.Navbar.Collapse className="justify-content-end">
+            <ReactBootstrap.Navbar.Text>
+              Signed in as: <a href="#login">Mark Otto</a>
+            </ReactBootstrap.Navbar.Text>
+          </ReactBootstrap.Navbar.Collapse>
+        </ReactBootstrap.Container>
+      </ReactBootstrap.Navbar>
+    </div>
+  );
+}
 
 Navbar.propTypes = {};
 

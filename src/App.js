@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Footer/>
       <Container/>
+      <Footer/>
     </div>
   );
 }
