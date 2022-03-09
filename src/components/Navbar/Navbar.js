@@ -3,7 +3,7 @@ import * as ReactBootstrap from "react-bootstrap";
 
 function Navbar() {
   return (
-    <div>
+    <div className="container">
       <ReactBootstrap.Navbar>
         <ReactBootstrap.Container>
           <ReactBootstrap.Navbar.Brand href="#home">
@@ -12,7 +12,7 @@ function Navbar() {
           <ReactBootstrap.Navbar.Toggle />
           <ReactBootstrap.Navbar.Collapse className="justify-content-end">
             <ReactBootstrap.Navbar.Text>
-              Signed in as: <a href="#login">Mark Otto</a>
+              Powered by Elrond
             </ReactBootstrap.Navbar.Text>
           </ReactBootstrap.Navbar.Collapse>
         </ReactBootstrap.Container>
