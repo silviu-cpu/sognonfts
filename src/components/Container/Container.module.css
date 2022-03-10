@@ -1,6 +1,14 @@
 .part {
     color:white;
-    height: 210px;
-    background: black;
+    height: 600px;
+    background: url(../../assets/images/piano.jpg);
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+    width: 100%;
     color: white;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

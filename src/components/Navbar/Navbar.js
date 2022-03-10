@@ -1,6 +1,6 @@
 import React from "react";
 import * as ReactBootstrap from "react-bootstrap";
-import logo from '../../assets/images/logo.gif'
+import logo from '../../assets/images/logo2.gif'
 import elrondlogo from '../../assets/images/elrond-network-logo-vector.svg'
 
 function Navbar() {
