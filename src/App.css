@@ -1,5 +1,4 @@
 #root {
-    background: #F5F5F5;
-    clip-path: polygon(0 0, 100% 0, 100% 50%, 64% 100%, 37% 100%, 0% 50%);
-    height: 1500px;
+    background: #FFF;
+    font-family: 'Montserrat', sans-serif;
 }
