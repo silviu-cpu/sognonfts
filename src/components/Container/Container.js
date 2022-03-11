@@ -1,16 +1,22 @@
-import React from 'react';
-import styles from './Container.module.css';
-import '../Container/Container.css'
+import React from "react";
+import styles from "./Container.module.css";
+import "../Container/Container.css";
+import Button from '@mui/material/Button';
 
 const Container = () => (
-  
-    <div className={styles.part}>
-      <div className="container d-flex flex-column align-items-center justify-content-center hi">
-        <h3>Sogno will release a NFT  Collection made of 3333 pieces of digital art</h3>
-        <p>that will have utility both IN REAL LIFE and ON-CHAIN.</p>
-      </div>
+  <div className="">
+    <div className=" d-flex flex-column align-items-center justify-content-center part">
+      
     </div>
-  
+    <div className="text">
+        <h3>
+          Sogno will release a NFT Collection made of 3333 unique pieces of Digital Art
+        </h3>
+        <Button variant="outlined" size="medium" className="white" href="https://linktr.ee/sognomusic" target="_blank">
+          Follow
+        </Button>
+      </div>
+  </div>
 );
 
 Container.propTypes = {};
