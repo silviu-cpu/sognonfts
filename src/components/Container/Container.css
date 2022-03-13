@@ -24,7 +24,7 @@
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
   padding: 30px;
-  font-weight: bold;
+  text-transform: uppercase;
   color: white;
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -46,4 +46,5 @@
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.12);
   margin-top: 20px;
+  font-family: 'VT323', monospace !important;
 }

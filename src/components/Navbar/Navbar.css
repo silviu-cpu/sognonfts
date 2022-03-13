@@ -5,3 +5,8 @@
 .gray { 
     color: gray !important;
 }
+
+.pixel {
+    font-family: 'VT323', monospace !important;
+    font-size: 1.5rem !important;
+}

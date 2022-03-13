@@ -5,6 +5,7 @@ import elrondlogo from "../../assets/images/elrond-network-logo-vector.svg";
 import "../Navbar/Navbar.css";
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
   return (
@@ -24,13 +25,13 @@ function Navbar() {
           <ReactBootstrap.Navbar.Collapse id="basic-navbar-nav">
             <ReactBootstrap.Nav className="me-auto">
               <Tooltip title="Coming soon" arrow>
-                <Button className="gray">Roadmap</Button>
+                <Button className="gray pixel">Roadmap</Button>
               </Tooltip>
               <Tooltip title="Coming soon" arrow>
-                <Button className="gray">Team</Button>
+                <Button className="gray pixel">Team</Button>
               </Tooltip>
               <Tooltip title="Coming soon" arrow>
-                <Button className="gray">Mint</Button>
+                <Button className="gray pixel">Mint</Button>
               </Tooltip>
             </ReactBootstrap.Nav>
           </ReactBootstrap.Navbar.Collapse>
