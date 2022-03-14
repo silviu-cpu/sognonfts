@@ -6,6 +6,8 @@ import Button from '@mui/material/Button';
 const Container = () => (
   <div className="">
     <div className=" d-flex flex-column align-items-center justify-content-center part">
+    
+    </div>
     <div className="text">
         <h3 className="mt">
           The first Techno Brand build on a NFT Collection based on the Elrond Blockchain
@@ -21,8 +23,6 @@ const Container = () => (
           Follow
         </Button>
       </div>
-    </div>
-    
   </div>
 );
 

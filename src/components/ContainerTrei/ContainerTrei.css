@@ -6,8 +6,8 @@
     background-repeat: no-repeat;
     width: 100%;
     color: white;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
