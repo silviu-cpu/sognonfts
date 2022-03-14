@@ -5,18 +5,18 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
+  min-width: 50vh;
   color: white;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position:absolute;
+  top:50%;
+  left:50%;
   transform: translate(-50%, -50%);
   z-index: 2;
   border: 1.2px solid black;
@@ -47,4 +47,5 @@
   0 100px 80px rgba(0, 0, 0, 0.12);
   margin-top: 20px;
   font-family: 'VT323', monospace !important;
+  font-size: 1rem !important;
 }
