@@ -6,6 +6,7 @@ import "../Navbar/Navbar.css";
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   return (
@@ -33,6 +34,7 @@ function Navbar() {
               <Tooltip title="Coming soon" arrow>
                 <Button className="gray pixel">Mint</Button>
               </Tooltip>
+              <FontAwesomeIcon icon={faDiscord} />as
             </ReactBootstrap.Nav>
           </ReactBootstrap.Navbar.Collapse>
           <ReactBootstrap.Navbar.Collapse className="justify-content-end">
