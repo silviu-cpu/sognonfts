@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Navbar() {
   return (
     <div className="container">
-      <ReactBootstrap.Navbar>
+      <ReactBootstrap.Navbar collapseOnSelect expand="lg" sticky="top">
         <ReactBootstrap.Container>
           <ReactBootstrap.Navbar.Brand href="#home">
             <img
