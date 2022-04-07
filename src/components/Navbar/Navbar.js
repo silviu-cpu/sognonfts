@@ -6,7 +6,7 @@ import "../Navbar/Navbar.css";
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   return (
@@ -32,9 +32,15 @@ function Navbar() {
                 <Button className="gray pixel">Team</Button>
               </Tooltip>
               <Tooltip title="Coming soon" arrow>
+                <Button className="gray pixel">Ambassadors</Button>
+              </Tooltip>
+              <Tooltip title="Coming soon" arrow>
                 <Button className="gray pixel">Mint</Button>
               </Tooltip>
-              <FontAwesomeIcon icon={faDiscord} />as
+              <a className="social" href="https://discord.gg/rfQzxT9R" target="_blank" ><FontAwesomeIcon icon={faDiscord} className="discord"/></a>
+              <a className="social" href="https://www.youtube.com/channel/UCenrHwE3KQm7XZ0kAfyjqrw" target="_blank" ><FontAwesomeIcon icon={faYoutube} className="youtube"/></a>
+              <a className="social" href="https://twitter.com/sognomusicnft" target="_blank" ><FontAwesomeIcon icon={faTwitter} className="twitter"/></a>
+              <a className="social" href="https://www.instagram.com/sognomusic.ro/" target="_blank" ><FontAwesomeIcon icon={faInstagram} className="instagram"/></a>
             </ReactBootstrap.Nav>
           </ReactBootstrap.Navbar.Collapse>
           <ReactBootstrap.Navbar.Collapse className="justify-content-end">

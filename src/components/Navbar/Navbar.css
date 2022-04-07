@@ -10,3 +10,59 @@
     font-family: 'VT323', monospace !important;
     font-size: 1.5rem !important;
 }
+
+.youtube {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 23px;
+    height: 23px;
+}
+
+.twitter {
+    color: black;
+    margin-left:10px;
+    margin-right:10px;
+    width: 23px;
+    height: 23px;
+}
+
+
+.instagram {
+    color: black;
+    margin-left:10px;
+    margin-right:10px;
+    width: 23px;
+    height: 23px;
+}
+
+.discord {
+    color: black;
+    margin-left:160px;
+    margin-right:10px;
+    width: 23px;
+    height: 23px;
+}
+
+
+.social {
+    margin: auto !important;
+}
+
+@media only screen and (max-width: 990px) {
+    .discord {
+      margin-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .discord {
+      margin-left: 40px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .discord {
+      margin-left: 160px;
+    }
+}
