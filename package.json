@@ -19,6 +19,7 @@
     "bootstrap": "^5.1.3",
     "generate-react-cli": "^7.0.6",
     "multiple.js": "0.0.1",
+    "node-sass": "^7.0.1",
     "pixi.js": "^6.2.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.0",
